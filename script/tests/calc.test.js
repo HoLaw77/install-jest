@@ -1,5 +1,5 @@
-const { TestScheduler } = require("jest");
-const addition = require("../calc");
+
+const addition = require("../tests/calc");
 
 describe("Calculator", () => {
     describe("Addition function", () => {
@@ -8,7 +8,7 @@ describe("Calculator", () => {
         })
     });
     describe("Subtraction function", () => {
-        test("should return")
+        
     });
     describe("Multiply function", () => {
         
